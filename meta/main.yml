@@ -1,6 +1,5 @@
 ---
 galaxy_info:
-  name: packages
   author: yvessander@gmail.com
   description: easy way to install / remove youre Packages
   license: license (GPLv2, CC-BY, etc)
