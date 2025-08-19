@@ -13,3 +13,4 @@
 - name: Remove unwanted Packages
   ansible.builtin.package : name={{ item }} state=absent
     with_items: "{{ packages_remove | default([]) }}"
+...
