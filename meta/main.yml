@@ -3,7 +3,7 @@ galaxy_info:
   author: yvessander@gmail.com
   description: easy way to install / remove youre Packages
   license: license (GPLv2, CC-BY, etc)
-  min_ansible_version: 2.19
+  min_ansible_version: "2.19"
   platforms:
   - name: Ubuntu
     versions: all
