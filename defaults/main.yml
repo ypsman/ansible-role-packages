@@ -1,4 +1,6 @@
+# file: defaults/main.yml
 ---
 # defaults file for base
 packages: []
 packages_remove: []
+...

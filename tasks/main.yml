@@ -8,13 +8,13 @@
 
 - name: Installing Packages
   ansible.builtin.package:
-    name: {{ item }}
+    name: "{{ item }}"
     state: present
   loop: "{{ packages | default([]) }}"
 
 - name: Remove unwanted Packages
   ansible.builtin.package:
-    name: {{ item }}
+    name: "{{ item }}"
     state: absent
   loop: "{{ packages_remove | default([]) }}"
 ...
