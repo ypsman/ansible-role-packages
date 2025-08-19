@@ -8,8 +8,8 @@
 
 - name: Installing Packages
   ansible.builtin.package: name={{ item }} state=present
-  with_items: "{{ packages|default([]) }}"
+    with_items: "{{ packages | default([]) }}"
 
 - name: Remove unwanted Packages
   ansible.builtin.package : name={{ item }} state=absent
-  with_items: "{{ packages_remove|default([]) }}"
+    with_items: "{{ packages_remove | default([]) }}"
