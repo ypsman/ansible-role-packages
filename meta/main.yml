@@ -5,18 +5,18 @@ galaxy_info:
   license: Apache
   min_ansible_version: "2.19"
   platforms:
-  - name: Ubuntu
-    versions: 
-      - all
-  - name: Debian
-    versions: 
-      - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
   galaxy_tags:
-  - packages
-  - install
-  - uninstall
-  - remove
-  - apt
-  - debian
-  - ubuntu
+    - packages
+    - install
+    - uninstall
+    - remove
+    - apt
+    - debian
+    - ubuntu
 dependencies: []
