@@ -1,8 +1,11 @@
 # file: meta/main.yml
 ---
 galaxy_info:
+  name: packages
+  version: "0.5"
+  namespace: ypsman
   author: Yves yvessander@gmail.com
-  description: easy way to install / remove youre Packages
+  description: Easy way to install and remove youre Packages.
   license: Apache
   min_ansible_version: "2.19"
   platforms:
